@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class ReactConcept extends Component {
     render() {
 	return (
-		<li>{this.props.name};</li>
-	)
+		<li>{this.props.name}</li>
+	);
     }
 }
 

@@ -1,4 +1,8 @@
-.App-fundamental-concepts {
-    padding: 20px 0px;
+.ReactConceptList {
+    background-color: #eee;
+    padding: 20px;
+}
+
+.ReactConceptList-fundamental-concepts {
     background-color: lightgrey;
 }
