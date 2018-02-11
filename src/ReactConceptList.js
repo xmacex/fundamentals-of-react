@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import './ReactConceptList.css';
 import Search from './Search.js';
 import ReactConcept from './ReactConcept.js';
@@ -36,6 +37,10 @@ class ReactConceptList extends Component {
 		</div>
 	);
     }
+}
+
+ReactConceptList.propTypes = {
+    concepts: PropTypes.arrayOf(PropTypes.string)
 }
 
 export default ReactConceptList;

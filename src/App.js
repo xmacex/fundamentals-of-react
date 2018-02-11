@@ -8,7 +8,7 @@ const CONCEPTS = ['Components',
 		  'JSX',
 		  'Props and state',
 		  'Events',
-		  'TypeScript',
+		  'Type checking with PropTypes, Flow or TypeScript',
 		  'some advanced topics...']
 
 class App extends Component {
